@@ -1,0 +1,80 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Job title:</b>
+  <%= @job.job_title %>
+</p>
+
+<p>
+  <b>Job:</b>
+  <%= @job.job_id %>
+</p>
+
+<p>
+  <b>Job description:</b>
+  <%= @job.job_description %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @job.user_id %>
+</p>
+
+<p>
+  <b>Job location:</b>
+  <%= @job.job_location %>
+</p>
+
+<p>
+  <b>Job type:</b>
+  <%= @job.job_type %>
+</p>
+
+<p>
+  <b>Employer:</b>
+  <%= @job.employer %>
+</p>
+
+<p>
+  <b>Employer website:</b>
+  <%= @job.employer_website %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%= @job.created_at %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%= @job.updated_at %>
+</p>
+
+<p>
+  <b>How to apply:</b>
+  <%= @job.how_to_apply %>
+</p>
+
+<p>
+  <b>Photo url:</b>
+  <%= @job.photo_url %>
+</p>
+
+<p>
+  <b>Industry:</b>
+  <%= @job.industry %>
+</p>
+
+<p>
+  <b>Hours:</b>
+  <%= @job.hours %>
+</p>
+
+<p>
+  <b>Days:</b>
+  <%= @job.days %>
+</p>
+
+
+<%= link_to 'Edit', edit_job_path(@job) %> |
+<%= link_to 'Back', jobs_path %>

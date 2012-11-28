@@ -36,3 +36,11 @@ gem "simple_form", ">= 2.0.3"
 gem "quiet_assets", ">= 1.0.1", :group => :development
 
 
+gem 'timecop', '0.3.5'
+gem 'forem-redcarpet', '1.0.0'
+gem 'workflow', '0.8.0'
+gem 'friendly_id', '~> 4.0'
+gem 'gemoji', '= 1.1.2'
+
+
+

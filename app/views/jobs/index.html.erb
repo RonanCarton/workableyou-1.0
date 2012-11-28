@@ -1,0 +1,150 @@
+<!--<table class="table table-striped">-->
+<!--<tr>-->
+<!--<th>Job title</th>-->
+<!--<th>Job ID</th>-->
+<!--<th>Job description</th>-->
+<!--&lt;!&ndash; <th>User</th> &ndash;&gt;-->
+<!--<th>Job location</th>-->
+<!--<th>Job type</th>-->
+<!--<th>Employer</th>-->
+<!--<th>Employer website</th>-->
+<!--<th>Created at</th>-->
+<!--<th>Updated at</th>-->
+<!--<th>How to apply</th>-->
+<!--<th>Photo url</th>-->
+<!--<th>Industry</th>-->
+<!--<th>Hours</th>-->
+<!--<th>Days</th>-->
+<!--<th></th>-->
+<!--<th></th>-->
+<!--<th></th>-->
+<!--</tr>-->
+
+<!--
+<% @jobs.each do |job| %>-->
+    <!--<tr>-->
+    <!--<td><%= job.job_title %></td>-->
+    <!--<td><%= job.job_id %></td>-->
+    <!--<td><%= job.job_description %></td>-->
+    <!--&lt;!&ndash; <td><%= job.user_id %></td> &ndash;&gt;-->
+    <!--<td><%= job.job_location %></td>-->
+    <!--<td><%= job.job_type %></td>-->
+    <!--<td><%= job.employer %></td>-->
+    <!--<td><%= job.employer_website %></td>-->
+    <!--<td><%= job.created_at %></td>-->
+    <!--<td><%= job.updated_at %></td>-->
+    <!--<td><%= job.how_to_apply %></td>-->
+    <!--<td><%= job.photo_url %></td>-->
+    <!--<td><%= job.industry %></td>-->
+    <!--<td><%= job.hours %></td>-->
+    <!--<td><%= job.days %></td>-->
+    <td><%= link_to 'Show', job %></td>
+    <td><%= link_to 'Edit', edit_job_path(job) %></td>
+    <td><%= link_to 'Destroy', job, method: :delete, data: {confirm: 'Are you sure?'} %></td>
+    <!--</tr>-->
+    <!--
+<% end %>-->
+<!--</table>-->
+
+<h3>WorkableYou Jobs</h3>
+
+<div class="row">
+  <div class="span5">
+    <dl>
+      <% @jobs.each do |job| %>
+
+          <dt>
+          <p><h5>ID</h5></p></dt>
+          <dd><%= job.job_id %></dd>
+
+          <dt>
+          <p><h5>Title</h5></p></dt>
+          <dd><%= job.job_title %></dd>
+
+
+          <dt>
+          <p><h5>Description</h5></p></p></dt>
+          <dd><%= job.job_description %></dd>
+
+          <dt>
+          <p><h5>Location</h5></p></dt>
+          <dd><%= job.job_location %></dd>
+
+
+          <dt>
+          <p><h5>Type</h5></p></dt>
+          <dd><%= job.job_type %></dd>
+
+          <dt>
+          <p><h5>Employer</h5></p></dt>
+          <dd><%= job.employer %></dd>
+
+          <dt>
+          <p><h5>Employer website</h5></p></dt>
+          <dd><%= job.employer_website %></dd>
+
+
+          <dt>
+          <p><h5>How to apply</h5></p></dt>
+          <dd><%= job.how_to_apply %></dd>
+
+          <dt>
+          <p><h5>Photo url</h5></p></dt>
+          <dd><%= job.photo_url %></dd>
+
+          <dt>
+          <p><h5>Industry</h5></p></dt>
+          <dd><%= job.industry %></dd>
+
+          <dt>
+          <p><h5>Hours</h5></p></dt>
+          <dd><%= job.hours %></dd>
+
+          <dt>
+          <p><h5>Days</h5></p></dt>
+          <dd><%= job.days %></dd>
+
+          <dt>
+            <small>Created at</small>
+          </dt>
+          <dd>
+            <small><%= job.created_at %></small>
+          </dd>
+
+          <dt>
+            <small>Updated at</small>
+          </dt>
+          <dd>
+            <small><%= job.updated_at %></small>
+          </dd>
+
+
+      <% end %>
+    </dl>
+
+    <div class="row">
+      <div class="span6">Level 2</div>
+      <div class="span3">Level 2</div>
+    </div>
+  </div>
+</div>
+
+<dl>
+
+
+</dl>
+
+<br/>
+
+
+<%= link_to 'Show', job %>
+
+
+<%= link_to 'Edit', edit_job_path(job) %>
+
+
+<%= link_to 'Destroy', job, method: :delete, data: {confirm: 'Are you sure?'} %>
+
+
+<%= link_to 'New Job', new_job_path %>
+

@@ -2,289 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="833e5f28-8d33-4c66-84b0-3fdb4211284d" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\.idea\.rakeTasks" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\.idea\forem-master.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\.rspec" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\.zeus.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\MIT-LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\assets\javascripts\forem.js.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\assets\javascripts\forem\admin\groups.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\assets\javascripts\forem\admin\members.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\assets\stylesheets\forem\admin\groups.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\assets\stylesheets\forem\admin\moderators.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\assets\stylesheets\forem\categories.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\controllers\forem\admin\base_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\controllers\forem\admin\categories_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\controllers\forem\admin\forums_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\controllers\forem\admin\groups_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\controllers\forem\admin\members_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\controllers\forem\admin\topics_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\controllers\forem\admin\users_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\controllers\forem\application_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\controllers\forem\categories_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\controllers\forem\forums_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\controllers\forem\moderation_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\controllers\forem\posts_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\controllers\forem\topics_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\helpers\forem\admin\groups_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\helpers\forem\admin\members_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\helpers\forem\admin\moderators_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\helpers\forem\admin\users_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\helpers\forem\application_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\helpers\forem\categories_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\helpers\forem\formatting_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\helpers\forem\forums_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\helpers\forem\moderation_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\helpers\forem\posts_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\helpers\forem\topics_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\mailers\forem\subscription_mailer.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\models\forem\ability.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\models\forem\category.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\models\forem\concerns\viewable.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\models\forem\forum.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\models\forem\group.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\models\forem\membership.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\models\forem\moderator_group.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\models\forem\post.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\models\forem\subscription.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\models\forem\topic.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\models\forem\view.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\admin\base\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\admin\categories\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\admin\categories\edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\admin\categories\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\admin\categories\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\admin\forums\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\admin\forums\edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\admin\forums\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\admin\forums\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\admin\groups\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\admin\groups\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\admin\groups\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\admin\groups\show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\admin\topics\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\admin\topics\edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\categories\_category.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\categories\show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\forums\_forum.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\forums\_head.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\forums\_listing.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\forums\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\forums\show.atom.builder" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\forums\show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\moderation\_options.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\moderation\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\posts\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\posts\_moderation_tools.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\posts\_post.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\posts\_reply_to_post.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\posts\edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\posts\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\subscription_mailer\topic_reply.text.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\topics\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\topics\_head.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\topics\_topic.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\topics\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\app\views\forem\topics\show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\a2h" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\autospec" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\bcat" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\btee" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\cdiff" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\cucumber" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\decolor" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\edit_json.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\enum" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\erubis" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\htmldiff" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\launchy" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\ldiff" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\nokogiri" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\prettify_json.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\rackup" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\rails" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\rake" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\rake2thor" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\rdiscount" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\rdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\redcarpet" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\ri" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\rspec" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\run_celerity_server.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\sqlite3_ruby" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\thor" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\tilt" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\bin\tt" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\config\initializers\will_paginate.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\config\locales\bg.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\config\locales\de.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\config\locales\en.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\config\locales\es.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\config\locales\fa.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\config\locales\fr.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\config\locales\it.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\config\locales\lt.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\config\locales\nl.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\config\locales\pl.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\config\locales\pt-BR.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\config\locales\pt-PT.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\config\locales\ru.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\config\locales\sv.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\config\locales\zh-CN.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\config\routes.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20110214221555_create_forem_forums.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20110221092741_create_forem_topics.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20110221094502_create_forem_posts.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20110228084940_add_reply_to_to_forem_posts.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20110519210300_add_locked_to_forem_topics.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20110519222000_add_pinned_to_forem_topics.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20110520150056_add_forem_views.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20110626150056_add_updated_at_and_count_to_forem_views.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20110626160056_add_hidden_to_forem_topics.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20111026143136_add_indexes_to_topics_posts_views.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20111103210835_create_forem_categories.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20111103214432_add_category_id_to_forums.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20111208014437_create_forem_subscriptions.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20120221195806_add_pending_review_to_forem_posts.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20120221195807_add_pending_review_to_forem_topics.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20120222000227_add_forem_topics_last_post_at.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20120222155549_create_forem_groups.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20120222204450_create_forem_memberships.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20120223162058_create_forem_moderator_groups.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20120227195911_remove_pending_review_add_state_to_forem_posts.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20120227202639_remove_pending_review_from_forem_topics_add_state.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20120228194653_approve_all_topics_and_posts.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20120228202859_add_notified_to_forem_posts.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20120229165013_make_forem_views_polymorphic.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20120302152918_add_forem_view_fields.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20120616193446_add_forem_admin.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20120616193447_add_forem_state.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20120616193448_add_forem_auto_subscribe.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\migrate\20120718073130_add_friendly_id_slugs.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\db\seeds.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\doc\twist-theme-post.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\forem.gemspec" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\lib\forem.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\lib\forem\autocomplete.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\lib\forem\default_permissions.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\lib\forem\engine.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\lib\forem\user_class_extensions.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\lib\forem\version.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\lib\generators\forem\install\templates\initializer.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\lib\generators\forem\install_generator.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\lib\generators\forem\views_generator.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\lib\tasks\forem_tasks.rake" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\script\rails" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\configuration_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\controllers\moderation_controller_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\controllers\topics_controller_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\generators\install_generator_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\generators\views_generator_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\helpers\formatting_helper_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\helpers\posts_helper_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\dummy_generator.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\app\assets\javascripts\application.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\app\assets\stylesheets\application.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\app\controllers\application_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\app\controllers\fake_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\app\controllers\home_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\app\controllers\users_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\app\helpers\application_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\app\models\admin.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\app\models\user.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\app\views\fake\sign_in.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\app\views\home\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\app\views\layouts\application.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\config\application.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\config\boot.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\config\database.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\config\initializers\devise.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\config\initializers\forem.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\config\routes.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\db\migrate\1_create_users.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\generators\forem\dummy\templates\db\migrate\2_create_admins.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\lib\tasks\forem_spec_tasks.rake" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\mailers\subscription_mailer_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\migrations\add_forem_admin_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\migrations\add_forem_auto_subscribe_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\migrations\add_forem_state_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\models\admin_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\models\category_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\models\forum_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\models\post_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\models\subscription_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\models\topic_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\models\user_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\admin\authentication_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\admin\forum_moderators_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\admin\forums_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\admin\groups_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\admin\topics_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\authentication_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\categories_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\formatting_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\forums_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\moderation\approved_users_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\moderation\new_users_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\moderation\post_moderation_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\moderation\spam_users_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\moderation\topic_moderation_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\permissions\categories_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\permissions\forums_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\permissions\posts_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\permissions\topics_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\posts_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\topic_listing_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\topics_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\requests\user_link_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\spec_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\capybara.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\capybara_ext.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\controller_hacks.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\factories.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\factories\categories.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\factories\forums.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\factories\groups.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\factories\posts.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\factories\topics.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\factories\users.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\generator_macros.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\mailer_macros.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\migration_macros.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\permission_helpers.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\routes.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\shared_context_for_migrations.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\sign_in_helpers.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\spec\support\spec_logger.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\workableyou 1.0\app\forums\vendor\assets\javascripts\jquery.autocomplete.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workableyou.iml" afterPath="$PROJECT_DIR$/.idea/workableyou.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/README_FOR_APP" afterPath="$PROJECT_DIR$/doc/README_FOR_APP" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/forem.rb" afterPath="$PROJECT_DIR$/config/initializers/forem.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/forem/engine.rb" afterPath="$PROJECT_DIR$/lib/forem/engine.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/1.9.1/gems/forem-0.0.1/app/controllers/forem/forums_controler.rb" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/1.9.1/gems/forem-0.0.1/app/controllers/forem/forums_controler.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bundle/ruby/1.9.1/gems/forem-0.0.1/forem.gemspec" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/1.9.1/gems/forem-0.0.1/forem.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="workableyou.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -306,8 +28,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="engine.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/forums/engine.rb">
+      <file leaf-file-name="wy_home.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/wy_home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="7" selection-start="1990" selection-end="2010" vertical-scroll-proportion="-6.5384617">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="125" selection-start="2841" selection-end="2841" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20121128125526_create_jobs.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20121128125526_create_jobs.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -315,55 +55,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forums_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/forums/app/controllers/forem/forums_controller.rb">
+      <file leaf-file-name="20121128131342_create_events.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20121128131342_create_events.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/forums/app/controllers/forem/application_controller.rb">
+      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/forums/config/routes.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/jobs/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="14" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+            <state line="150" column="0" selection-start="3417" selection-end="3417" vertical-scroll-proportion="-11.384615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="20" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+            <state line="46" column="38" selection-start="906" selection-end="906" vertical-scroll-proportion="1.7240566">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wy_blog.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/wy_blog.html">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="8" selection-start="276" selection-end="363" vertical-scroll-proportion="-3.2692308">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wy_home.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/wy_home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="7" selection-start="1990" selection-end="2010" vertical-scroll-proportion="0.3090909">
+            <state line="47" column="25" selection-start="1180" selection-end="1180" vertical-scroll-proportion="-17.0">
               <folding />
             </state>
           </provider>
@@ -403,9 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/vendor/bundle/ruby/1.9.1/gems/forem-0.0.1/forem.gemspec" />
-        <option value="$PROJECT_DIR$/app/forums/app/controllers/forem/forums_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/config/initializers/forem.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/1.9.1/gems/forem-0.0.1/app/controllers/forem/forums_controler.rb" />
@@ -419,6 +147,9 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/forums/app/controllers/forem/application_controller.rb" />
         <option value="$PROJECT_DIR$/forums/app/controllers/forem/forums_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/events/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/jobs/index.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -430,9 +161,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="156" />
-    <option name="y" value="72" />
-    <option name="width" value="1176" />
+    <option name="x" value="8" />
+    <option name="y" value="47" />
+    <option name="width" value="1310" />
     <option name="height" value="629" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -461,22 +192,22 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workableyou" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="RailsProjectView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workableyou" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -509,122 +240,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workableyou" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workableyou 1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workableyou" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workableyou 1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forums" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workableyou" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workableyou 1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forums" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workableyou" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workableyou 1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forums" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workableyou" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workableyou 1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forums" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workableyou" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workableyou 1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -651,43 +266,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workableyou" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workableyou 1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workableyou" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workableyou 1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
+              <option name="myItemId" value="jobs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -705,7 +284,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workableyou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workableyou 1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -716,12 +313,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="C:/Ruby193/lib/ruby/gems/1.9.1/gems/bundler-1.2.1/lib/bundler" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -867,6 +464,15 @@
         <option name="RakeTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method>
+        <option name="RakeTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -894,15 +500,6 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method>
-        <option name="RakeTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
       <method>
         <option name="RakeTask" enabled="false" />
       </method>
@@ -1076,14 +673,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="156" y="72" width="1176" height="629" extended-state="0" />
-    <editor active="false" />
+    <frame x="8" y="47" width="1310" height="629" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32673267" sideWeight="0.4969651" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871288" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41350532" sideWeight="0.31335616" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08992806" sideWeight="0.6012793" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2929374" sideWeight="0.6012793" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39872068" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7762376" sideWeight="0.1707132" order="7" side_tool="true" content_ui="tabs" />
@@ -1157,41 +754,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/1.9.1/gems/forem-0.0.1/spec/dummy/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/1.9.1/gems/forem-0.0.1/spec/dummy/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/1.9.1/gems/forem-0.0.1/spec/integration/forums_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/1.9.1/gems/forem-0.0.1/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/forem/engine.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/1.9.1/gems/forem-0.0.1/forem.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forums/lib/forem/engine.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forums/engine.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -1212,35 +774,82 @@
         <state line="1" column="14" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forums/lib/forem.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+        <state line="8" column="20" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/wy_blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="276" selection-end="363" vertical-scroll-proportion="-3.2692308">
+        <state line="5" column="8" selection-start="276" selection-end="363" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="4" selection-start="1342" selection-end="1774" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="81" column="4" selection-start="1342" selection-end="1774" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forums/lib/forem.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/wy_home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="7" selection-start="1990" selection-end="2010" vertical-scroll-proportion="0.3090909">
+        <state line="61" column="7" selection-start="1990" selection-end="2010" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="125" selection-start="2841" selection-end="2841" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20121128125526_create_jobs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20121128131342_create_events.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="25" selection-start="1180" selection-end="1180" vertical-scroll-proportion="-17.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/jobs/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="0" selection-start="3417" selection-end="3417" vertical-scroll-proportion="-11.384615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="38" selection-start="906" selection-end="906" vertical-scroll-proportion="1.7240566">
           <folding />
         </state>
       </provider>

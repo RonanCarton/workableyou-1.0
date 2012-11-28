@@ -1,4 +1,8 @@
 Workableyou::Application.routes.draw do
+  resources :events
+
+  resources :jobs
+
 mount Forem::Engine, :at => "/forums", :as => "forums_engine"
 
 match '/forums' => "forem/forums#index", :as => "forums"

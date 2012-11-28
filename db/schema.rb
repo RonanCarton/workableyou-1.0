@@ -11,7 +11,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121120170746) do
+ActiveRecord::Schema.define(:version => 20121128131342) do
+
+  create_table "events", :force => true do |t|
+    t.string   "event_id"
+    t.text     "event_location"
+    t.string   "event_image"
+    t.string   "event_date"
+    t.text     "event_time"
+    t.string   "event_website"
+    t.string   "contact_email"
+    t.text     "event_description"
+    t.integer  "user_id"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+  end
 
   create_table "forem_forums", :force => true do |t|
     t.string "title"
@@ -33,6 +47,24 @@ ActiveRecord::Schema.define(:version => 20121120170746) do
     t.string   "subject"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "jobs", :force => true do |t|
+    t.string   "job_title"
+    t.integer  "job_id"
+    t.text     "job_description"
+    t.integer  "user_id"
+    t.text     "job_location"
+    t.text     "job_type"
+    t.text     "employer"
+    t.string   "employer_website"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+    t.text     "how_to_apply"
+    t.string   "photo_url"
+    t.string   "industry"
+    t.text     "hours"
+    t.text     "days"
   end
 
   create_table "roles", :force => true do |t|
