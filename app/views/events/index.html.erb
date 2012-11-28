@@ -40,53 +40,6 @@
 
 <br />
 
-<dl>
-  <% @events.each do |job| %>
-      <dt><p><h5>Event</h5></p></dt>
-      <dd><%= job.job_title %></dd>
-
-      <dt><p><h5>Location</h5></p></dt>
-      <dd><%= job.job_id %></dd>
-
-      <dt><p><h5>Description</h5></p></p></dt>
-      <dd><%= job.job_description %></dd>
-
-      <dt><p><h5>Location</h5></p></dt>
-      <dd><%= job.job_location %></dd>
-
-      <dt><p><h5>Type</h5></p></dt>
-      <dd><%= job.job_type %></dd>
-
-      <dt><p><h5>Employer</h5></p></dt>
-      <dd><%= job.employer %></dd>
-
-      <dt><p><h5>Employer website</h5></p></dt>
-      <dd><%= job.employer_website %></dd>
-
-
-
-      <dt><p><h5>How to apply</h5></p></dt>
-      <dd><%= job.how_to_apply %></dd>
-
-      <dt><p><h5>Photo url</h5></p></dt>
-      <dd><%= job.photo_url %></dd>
-
-      <dt><p><h5>Industry</h5></p></dt>
-      <dd><%= job.industry %></dd>
-
-      <dt><p><h5>Hours</h5></p></dt>
-      <dd><%= job.hours %></dd>
-
-      <dt><p><h5>Days</h5></p></dt>
-      <dd><%= job.days %></dd>
-
-      <dt><p>Created at</p></dt>
-      <dd><%= job.created_at %></dd>
-
-      <dt><p>Updated at</p></dt>
-      <dd><%= job.updated_at %></dd>
-
-      </dl>
 
 
       <%= link_to 'New Event', new_event_path %>
