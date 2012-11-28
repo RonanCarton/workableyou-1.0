@@ -1,0 +1,93 @@
+
+
+@import "bootstrap";
+body { padding-top: 160px; }
+@import "bootstrap-responsive";
+
+$darkest-color: #567a10;
+$darker-color: #7cae1b;
+$main-color: #9acb3c;
+$tone-color: #dbff96; /* light tone */
+
+a {color: $darker-color}
+a:hover {color: $darkest-color}
+
+.btn-primary {
+  background-color: $main-color;
+  background-image: -moz-linear-gradient(center top , $darker-color, $darkest-color);
+  background-repeat: repeat-x;
+  border-color: $darkest-color $darkest-color $main-color;
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled]
+{
+  background-color: $darkest-color;
+  color: white;
+ }
+
+.body {color: $darkest-color}
+
+h1, h2, h3, h4, h5, h6 {
+  color:$darkest-color;
+  font-family:inherit;
+  font-weight:bold;
+  line-height:1;
+  margin:10px 0;
+  text-rendering:optimizelegibility;
+}
+
+.thumbnail { display: inline;}
+
+
+
+.navbar .brand {
+
+  display: block;
+  float: left;
+
+  margin-left: 20px;
+  padding: none;
+
+}
+
+.navbar-inner {
+  background-color:$main-color;
+  background-image:none;
+  min-height: 110px;
+
+
+
+}
+
+.navbar .nav > li {
+ line-height: 2em;
+}
+
+.navbar .nav > li > a {
+  margin-top: 50px;
+  color: #ffffff;
+  float: none;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 $darkest-color;
+
+}
+
+.content {
+      border-color: $tone-color;
+      padding: 20px;
+      margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+      -webkit-border-radius: 0 0 6px 6px;
+      -moz-border-radius: 0 0 6px 6px;
+      border-radius: 0 0 6px 6px;
+      -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+      -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+      box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    }
+

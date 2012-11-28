@@ -1,0 +1,66 @@
+<%= link_to "Workable You", root_path, :class => 'brand' %>
+<div class="navbar navbar-fixed-top">
+  <a class="brand" href="#"><%= image_tag "workable you  Logo 2012 copy.gif" %></a>
+
+  <div class="navbar-inner">
+
+
+    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </a>
+
+
+    <div class="nav-collapse">
+      <ul class="nav">
+        <li>
+          <%= link_to "wy_blog", page_path(:id => "wy_blog") %>
+        </li>
+        <li>
+          <%= link_to "wy_home", page_path(:id => "wy_home") %>
+        </li>
+        <li>
+          <%= link_to "wy_jobs", page_path(:id => "wy_jobs") %>
+        </li>
+
+
+        <!--<li>-->
+          <!--<#%= link_to "forums", forem_path(:id => "forum") %>-->
+        <!--</li>-->
+
+
+        <% if user_signed_in? %>
+            <li>
+              <%= link_to('Logout', destroy_user_session_path, :method => 'delete') %>
+            </li>
+        <% else %>
+            <li>
+              <%= link_to('Login', new_user_session_path) %>
+            </li>
+        <% end %>
+        <% if user_signed_in? %>
+            <li>
+              <%= link_to('Edit account', edit_user_registration_path) %>
+            </li>
+            <% if current_user.has_role? :admin %>
+                <li>
+                  <%= link_to('Admin', users_path) %>
+                </li>
+            <% end %>
+        <% else %>
+            <li>
+              <%= link_to('Join Today', new_user_registration_path) %>
+            </li>
+            <li><%= link_to "All Jobs" %></li>
+            <li><%= link_to "Job Alerts" %></li>
+            <li><%= link_to "Post A Job" %></li>
+            <li><%= link_to "Subscribe To Job Alerts" %></li>
+        <% end %>
+      </ul>
+
+
+    </div>
+  </div>
+</div>
+</div>

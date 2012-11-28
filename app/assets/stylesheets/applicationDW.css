@@ -1,0 +1,95 @@
+
+
+@import "bootstrap";
+body { padding-top: 160px; }
+@import "bootstrap-responsive";
+
+$darkest-color: #567a10;
+$darker-color: #7cae1b;
+$main-color: #9acb3c;
+$tone-color: #dbff96; /* light tone */
+
+.navbar-fixed-bottom { background-color: #dbff96}
+
+a {color: #7cae1b}
+a:hover {color: #567a10}
+
+.btn-primary {
+    background-color: #9acb3c;
+    background-image: -moz-linear-gradient(center top , #7cae1b, #567a10);
+    background-repeat: repeat-x;
+    border-color: #567a10 #567a10 #9acb3c;
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled]
+{
+    background-color: #567a10;
+    color: white;
+}
+
+.body {color: #567a10}
+
+h1, h2, h3, h4, h5, h6 {
+    color:#567a10;
+    font-family:inherit;
+    font-weight:bold;
+    line-height:1;
+    margin:10px 0;
+    text-rendering:optimizelegibility;
+}
+
+.thumbnail { display: inline;}
+
+
+
+.navbar .brand {
+
+    display: block;
+    float: left;
+
+    margin-left: 20px;
+    padding: none;
+
+}
+
+.navbar-inner {
+    background-color:#9acb3c;
+    background-image:none;
+    min-height: 50px;
+
+
+
+}
+
+.navbar .nav > li {
+    line-height: 2em;
+}
+
+.navbar .nav > li > a {
+    margin-top: 10px;
+    color: #ffffff;
+    float: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #567a10;
+
+}
+
+.content {
+    border-color: #dbff96;
+    padding: 20px;
+    margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
