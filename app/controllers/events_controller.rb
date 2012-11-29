@@ -2,7 +2,12 @@ class EventsController < ApplicationController
   # GET /events
   # GET /events.json
   def index
-    @events = Event.all
+    def index
+      @q = Event.search(params[:q])
+      @events = @q.result(:distinct => true)
+
+
+    #@events = Event.all
 
     respond_to do |format|
       format.html # index.html.erb
@@ -80,4 +85,6 @@ class EventsController < ApplicationController
       format.json { head :no_content }
     end
   end
+  end
 end
+
