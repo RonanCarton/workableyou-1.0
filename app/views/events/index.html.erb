@@ -1,71 +1,133 @@
+
+
 <p id="notice"><%= notice %></p>
 
-<h3>Current Events</h3>
+
+
+
 
 <div class="row">
-  <div class="span4">
+  <div class="span12">
 
-    <% @events.each do |event| %>
+    <div class="row">
+      <div class="span3">
 
-        <p><h5>ID</h5>
-        <h3><%= event.event_id %></h3>
-        </p>
+        <div class="span2"> <%= image_tag "http://placehold.it/144x81" %>
+          <a href=".html" title="Read More" class="read_more">Featured Event</a>
 
-        <p><h5></h5>
-        <%= event.event_image %>
-        <%= image_tag "http://placehold.it/304x171"%>
-        <p class="muted"><small>event image</small></p>
-        </p>
+          <p>
+            <small>"Sed ut perspiciatis unde omnis iste natus.</small>
+          </p>
+        </div>
 
-        <p><h5>Location</h5>
-        <%= event.event_location %>
-        </p>
+        <div class="span2"> <%= image_tag "http://placehold.it/144x81" %>
+          <a href=".html" title="Read More" class="read_more">Featured Event</a>
 
+          <p>
+            <small>"Sed ut perspiciatis unde omnis iste natus.</small>
+          </p>
+        </div>
 
-        <p><h5>Date</h5>
-        <%= event.event_date %>
-        </p>
+        <div class="span2"> <%= image_tag "http://placehold.it/144x81" %>
+          <a href=".html" title="Read More" class="read_more">Featured Event</a>
+
+          <p>
+            <small>"Sed ut perspiciatis unde omnis iste natus.</small>
+          </p>
+        </div>
+
+        <div class="span2"> <%= image_tag "http://placehold.it/144x81" %>
+          <a href=".html" title="Read More" class="read_more">Featured Event</a>
+
+          <p>
+            <small>"Sed ut perspiciatis unde omnis iste natus.</small>
+          </p>
         </div>
 
 
+      </div>
 
-        <div class="span4">
-        <p><h5>Time</h5>
-        <%= event.event_time %>
-        </p>
-        <p><h5>Event Website</h5>
-        <%= event.event_website %>
-        </p>
-        <p><h5>Contact</h5>
-        <%= event.contact_email %>
-        </p>
+      <div class="span5 ">
+        <h4>Current Events</h4>
 
-        <p><h5>Description</h5>
-        <%= event.event_description %>
-        </p>
-        <p><h5>User ID</h5>
-        <%= event.user_id %>
-        </p>
-        </div>
+        <% @events.each do |event| %>
 
-        <p class="muted"><small>Created at</small>
-          <small><%= event.created_at %></small></p>
-        <p class="muted">
-          <small>Updated at</small>
-          <small><%= event.updated_at %></small></p>
+            <p><h5>ID</h5>
+
+            <h3><%= event.event_id %></h4>
+              </p>
+
+              <p><h5>Image</h5>
+              <%= event.event_image %>
+              <%= image_tag "http://placehold.it/304x171" %>
+              <p class="muted">
+                <small>event image</small>
+              </p>
+              </p>
+
+              <p><h5>Location</h5>
+              <%= event.event_location %>
+              </p>
 
 
+              <p><h5>Date</h5>
+              <%= event.event_date %>
+              </p>
+
+              <p><h5>Time</h5>
+              <%= event.event_time %>
+              </p>
+              <p><h5>Event Website</h5>
+              <%= event.event_website %>
+              </p>
+              <p><h5>Contact</h5>
+              <%= event.contact_email %>
+              </p>
+
+              <p><h5>Description</h5>
+              <%= event.event_description %>
+              </p>
+              <p><h5>User ID</h5>
+              <%= event.user_id %>
+              </p>
 
 
-        <br/>
+              <p class="muted">
+                <small>Created at</small>
+                <small><%= event.created_at %></small>
+              </p>
+              <p class="muted">
+                <small>Updated at</small>
+                <small><%= event.updated_at %></small>
+              </p>
 
-        <%= link_to 'Show', event %>
-        <%= link_to 'Edit', edit_event_path(event) %>
-        <%= link_to 'Destroy', event, method: :delete, data: {confirm: 'Are you sure?'} %>
 
-    <% end %>
+              <br/>
+              <%= link_to 'Show', event %>
+              <%= link_to 'Edit', edit_event_path(event) %>
+              <%= link_to 'Destroy', event, method: :delete, data: {confirm: 'Are you sure?'} %>
 
-    <%= link_to 'New Event', new_event_path %>
 
+        <% end %>
+
+        <%= link_to 'New Event', new_event_path %>
+
+
+      </div>
+      <div class="span3">
+
+
+        <%= render 'layouts/eventsearch' %>
+
+
+      </div>
     </div>
+
+  </div>
 </div>
+
+
+
+
+
+
