@@ -10,7 +10,7 @@ group :assets do
   gem "high_voltage"
   gem 'forem', :path => "C:/workableyou 1.0/forem"
   gem 'will_paginate', '3.0.3'
-  gem "ransack" , "0.7.0"
+  gem 'ransack'
 
 
 

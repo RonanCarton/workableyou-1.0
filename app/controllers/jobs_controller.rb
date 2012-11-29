@@ -2,7 +2,9 @@ class JobsController < ApplicationController
   # GET /jobs
   # GET /jobs.json
   def index
-    @jobs = Job.all
+    @q = Job.search(params[:q])
+    @jobs = @q.result(:distinct => true)
+   #@jobs = Job.all
 
     respond_to do |format|
       format.html # index.html.erb

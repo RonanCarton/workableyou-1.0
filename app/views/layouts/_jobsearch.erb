@@ -1,0 +1,15 @@
+<%= search_form_for@q do |f| %>
+    <div class="field">
+      <%= f.label :days_cont, "Days" %>
+      <%= f.text_field :days_cont %>
+    </div>
+    <div class="field">
+      <%= f.label :industry_cont, "Industry" %>
+      <%= f.text_field :industry_cont %>
+    </div>
+    <div class="field">
+      <%= f.label :job_location_cont, "Location City" %>
+      <%= f.text_field :job_location_cont %>
+    </div>
+    <div class="actions"><%= f.submit "Search" %></div>
+<%end%>
