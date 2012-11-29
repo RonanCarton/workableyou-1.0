@@ -8,8 +8,10 @@ group :assets do
   gem "bootstrap-sass", ">= 2.1.0.0"
   gem 'twitter-bootstrap-rails'
   gem "high_voltage"
-  gem 'forem', :path => "C:/workableyou 1.0/vendor/bundle/ruby/1.9.1/gems/forem-0.0.1"
+  gem 'forem', :path => "C:/workableyou 1.0/forem"
   gem 'will_paginate', '3.0.3'
+  gem "ransack" , "0.7.0"
+
 
 
 end
@@ -36,11 +38,9 @@ gem "simple_form", ">= 2.0.3"
 gem "quiet_assets", ">= 1.0.1", :group => :development
 
 
-gem 'timecop', '0.3.5'
-gem 'forem-redcarpet', '1.0.0'
-gem 'workflow', '0.8.0'
-gem 'friendly_id', '~> 4.0'
-gem 'gemoji', '= 1.1.2'
+
+
+
 
 
 

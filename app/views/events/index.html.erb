@@ -1,45 +1,67 @@
-<h3>Events</h3>
+<p id="notice"><%= notice %></p>
 
-<table>
-  <tr>
-    <th>Event</th>
-    <th>Event location</th>
-    <th>Event image</th>
-    <th>Event date</th>
-    <th>Event time</th>
-    <th>Event website</th>
-    <th>Contact email</th>
-    <th>Event description</th>
-    <th>User</th>
-    <th>Created at</th>
-    <th>Updated at</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
+<h3>Current Events</h3>
 
-<% @events.each do |event| %>
-  <tr>
-    <td><%= event.event_id %></td>
-    <td><%= event.event_location %></td>
-    <td><%= event.event_image %></td>
-    <td><%= event.event_date %></td>
-    <td><%= event.event_time %></td>
-    <td><%= event.event_website %></td>
-    <td><%= event.contact_email %></td>
-    <td><%= event.event_description %></td>
-    <td><%= event.user_id %></td>
-    <td><%= event.created_at %></td>
-    <td><%= event.updated_at %></td>
-    <td><%= link_to 'Show', event %></td>
-    <td><%= link_to 'Edit', edit_event_path(event) %></td>
-    <td><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table>
+<div class="row">
+  <div class="span5 offset4">
 
-<br />
+    <% @events.each do |event| %>
+
+        <p><h5>ID</h5>
+        <h3><%= event.event_id %></h3>
+        </p>
+
+        <p><h5>Image</h5>
+        <%= event.event_image %>
+        <%= image_tag "http://placehold.it/304x171"%>
+        <p class="muted"><small>event image</small></p>
+        </p>
+
+        <p><h5>Location</h5>
+        <%= event.event_location %>
+        </p>
 
 
+        <p><h5>Date</h5>
+        <%= event.event_date %>
+        </p>
 
-      <%= link_to 'New Event', new_event_path %>
+        <p><h5>Time</h5>
+        <%= event.event_time %>
+        </p>
+        <p><h5>Event Website</h5>
+        <%= event.event_website %>
+        </p>
+        <p><h5>Contact</h5>
+        <%= event.contact_email %>
+        </p>
+
+        <p><h5>Description</h5>
+        <%= event.event_description %>
+        </p>
+        <p><h5>User ID</h5>
+        <%= event.user_id %>
+        </p>
+
+
+        <p class="muted"><small>Created at</small>
+          <small><%= event.created_at %></small></p>
+        <p class="muted">
+          <small>Updated at</small>
+          <small><%= event.updated_at %></small></p>
+
+
+
+
+        <br/>
+
+        <%= link_to 'Show', event %>
+        <%= link_to 'Edit', edit_event_path(event) %>
+        <%= link_to 'Destroy', event, method: :delete, data: {confirm: 'Are you sure?'} %>
+
+    <% end %>
+
+    <%= link_to 'New Event', new_event_path %>
+
+  </div>
+</div>

@@ -81,3 +81,6 @@ class JobsController < ApplicationController
     end
   end
 end
+
+#@search = Job.search(params[:q]) # job search params added
+# @jobs = @search.result

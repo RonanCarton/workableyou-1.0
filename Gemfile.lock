@@ -1,8 +1,7 @@
 PATH
-  remote: C:/workableyou 1.0/vendor/bundle/ruby/1.9.1/gems/forem-0.0.1
+  remote: forem
   specs:
-    forem (0.0.1)
-      simple_form
+    forem (1.0.0.beta1)
 
 GEM
   remote: https://rubygems.org/
