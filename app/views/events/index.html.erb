@@ -3,7 +3,7 @@
 <h3>Current Events</h3>
 
 <div class="row">
-  <div class="span5 offset4">
+  <div class="span4">
 
     <% @events.each do |event| %>
 
@@ -11,7 +11,7 @@
         <h3><%= event.event_id %></h3>
         </p>
 
-        <p><h5>Image</h5>
+        <p><h5></h5>
         <%= event.event_image %>
         <%= image_tag "http://placehold.it/304x171"%>
         <p class="muted"><small>event image</small></p>
@@ -25,7 +25,11 @@
         <p><h5>Date</h5>
         <%= event.event_date %>
         </p>
+        </div>
 
+
+
+        <div class="span4">
         <p><h5>Time</h5>
         <%= event.event_time %>
         </p>
@@ -42,7 +46,7 @@
         <p><h5>User ID</h5>
         <%= event.user_id %>
         </p>
-
+        </div>
 
         <p class="muted"><small>Created at</small>
           <small><%= event.created_at %></small></p>
@@ -63,5 +67,5 @@
 
     <%= link_to 'New Event', new_event_path %>
 
-  </div>
+    </div>
 </div>
