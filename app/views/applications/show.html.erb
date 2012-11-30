@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Application:</b>
+  <%= @application.application_id %>
+</p>
+
+<p>
+  <b>Job:</b>
+  <%= @application.job_id %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @application.user_id %>
+</p>
+
+<p>
+  <b>Application cover note:</b>
+  <%= @application.application_cover_note %>
+</p>
+
+<p>
+  <b>Cv upload:</b>
+  <%= @application.cv_upload %>
+</p>
+
+
+<%= link_to 'Edit', edit_application_path(@application) %> |
+<%= link_to 'Back', applications_path %>

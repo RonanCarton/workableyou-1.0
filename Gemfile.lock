@@ -1,8 +1,3 @@
-PATH
-  remote: forem
-  specs:
-    forem (1.0.0.beta1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -204,7 +199,6 @@ DEPENDENCIES
   devise (>= 2.1.0)
   email_spec
   factory_girl_rails
-  forem!
   high_voltage
   jquery-rails
   launchy

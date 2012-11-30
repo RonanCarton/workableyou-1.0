@@ -1,11 +1,13 @@
 Workableyou::Application.routes.draw do
+  resources :applications
+
   resources :events
 
   resources :jobs
 
-mount Forem::Engine, :at => "/forums", :as => "forums_engine"
+#mount Forem::Engine, :at => "/forums", :as => "forums_engine"
 
-match '/forums' => "forem/forums#index", :as => "forums"
+#match '/forums' => "forem/forums#index", :as => "forums"
 
   authenticated :user do
     root :to => 'home#index'

@@ -8,7 +8,7 @@ group :assets do
   gem "bootstrap-sass", ">= 2.1.0.0"
   gem 'twitter-bootstrap-rails'
   gem "high_voltage"
-  gem 'forem', :path => "C:/workableyou 1.0/forem"
+  #gem 'forem', :path => "C:/workableyou 1.0/forem"
   gem 'will_paginate', '3.0.3'
   gem 'ransack'
 

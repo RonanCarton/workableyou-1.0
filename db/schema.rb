@@ -11,7 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121128131342) do
+ActiveRecord::Schema.define(:version => 20121130105327) do
+
+  create_table "applications", :force => true do |t|
+    t.string   "application_id"
+    t.string   "job_id"
+    t.string   "user_id"
+    t.text     "application_cover_note"
+    t.string   "cv_upload"
+    t.datetime "created_at",             :null => false
+    t.datetime "updated_at",             :null => false
+  end
 
   create_table "events", :force => true do |t|
     t.string   "event_id"
