@@ -18,6 +18,7 @@ end
 
 
 gem 'jquery-rails'
+gem "jquery-fileupload-rails"
 
 group :test do
   gem 'cucumber-rails'
