@@ -11,14 +11,19 @@ group :assets do
   #gem 'forem', :path => "C:/workableyou 1.0/forem"
   gem 'will_paginate', '3.0.3'
   gem 'ransack'
+  gem "jquery-fileupload-rails"
+  gem 'jquery-rails'
+  gem 'carrierwave'
+  gem 'omniauth'
+  gem 'omniauth-linkedin'
 
 
 
 end
 
 
-gem 'jquery-rails'
-gem "jquery-fileupload-rails"
+
+
 
 group :test do
   gem 'cucumber-rails'

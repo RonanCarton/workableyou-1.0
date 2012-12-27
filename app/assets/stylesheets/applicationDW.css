@@ -1,4 +1,4 @@
-
+*= require jquery.fileupload-ui
 
 @import "bootstrap";
 body { padding-top: 160px; }

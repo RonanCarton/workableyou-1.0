@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+  has_many :authentications
   #include Forem::DefaultPermissions #added
   rolify
   # Include default devise modules. Others available are:

@@ -11,16 +11,27 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121130105327) do
+ActiveRecord::Schema.define(:version => 20121224111537) do
 
   create_table "applications", :force => true do |t|
     t.string   "application_id"
     t.string   "job_id"
     t.string   "user_id"
     t.text     "application_cover_note"
-    t.string   "cv_upload"
     t.datetime "created_at",             :null => false
     t.datetime "updated_at",             :null => false
+    t.string   "cv"
+  end
+
+  create_table "authentications", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "provider"
+    t.string   "uid"
+    t.string   "index"
+    t.string   "create"
+    t.string   "destroy"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "events", :force => true do |t|
