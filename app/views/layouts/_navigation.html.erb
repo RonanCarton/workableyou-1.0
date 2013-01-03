@@ -24,6 +24,10 @@
           <%= link_to "Job Index", page_path(:id => "wy_jobs") %>
         </li>
 
+        <li>
+          <%= link_to "Forum" %>
+        </li>
+
 
         <!--<li>-->
           <!--<#%= link_to "forums", forem_path(:id => "forum") %>-->
@@ -38,6 +42,7 @@
             <li>
               <%= link_to('Login', new_user_session_path) %>
             </li>
+
         <% end %>
         <% if user_signed_in? %>
             <li>

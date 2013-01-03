@@ -1,4 +1,7 @@
 class JobsController < ApplicationController
+
+    autocomplete :days, :job_location
+    skip_before_filter :authorize, except: [:edit, :update, :destroy]
   # GET /jobs
   # GET /jobs.json
   def index

@@ -1,4 +1,10 @@
 Workableyou::Application.routes.draw do
+
+
+mount Forem::Engine, :at => "/forums" #, :as => "forums_engine"
+match "/forums" => "forem/forums#index" #, :as => "forums"
+
+  match '/auth/:provider/callback' => 'authentications#create'
   resources :authentications
 
   resources :applications
@@ -7,11 +13,14 @@ Workableyou::Application.routes.draw do
 
   resources :jobs
 
-#mount Forem::Engine, :at => "/forums", :as => "forums_engine"
 
-#match '/forums' => "forem/forums#index", :as => "forums"
+  scope '(:locale)' do
+    get 'jobs/autocomplete_job_location'
+    end
 
-  match '/auth/:provider/callback' => 'authentications#create'
+
+
+
 
   authenticated :user do
     root :to => 'home#index'

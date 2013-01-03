@@ -8,7 +8,8 @@ group :assets do
   gem "bootstrap-sass", ">= 2.1.0.0"
   gem 'twitter-bootstrap-rails'
   gem "high_voltage"
-  #gem 'forem', :path => "C:/workableyou 1.0/forem"
+  gem 'forem'
+  #gem "blogit"
   gem 'will_paginate', '3.0.3'
   gem 'ransack'
   gem "jquery-fileupload-rails"
@@ -16,6 +17,9 @@ group :assets do
   gem 'carrierwave'
   gem 'omniauth'
   gem 'omniauth-linkedin'
+  gem 'omniauth-twitter'
+
+
 
 
 
@@ -34,13 +38,18 @@ group :test do
   gem "launchy"
 end
 
+gem 'simple_form', '>= 2.0.3'
+gem "judge", "~> 1.5.0"
+gem "judge-simple_form", :require => "judge/simple_form"
+gem 'rails3-jquery-autocomplete'
+
 gem "devise", ">= 2.1.0"
 gem 'rspec-rails', :group => [:development, :test]
 
 
-gem "cancan", ">= 1.6.8"
+gem "cancan", ">= 1.6.8"          # ">= 1.6.8"
 gem "rolify", ">= 3.2.0"
-gem "simple_form", ">= 2.0.3"
+
 gem "quiet_assets", ">= 1.0.1", :group => :development
 
 

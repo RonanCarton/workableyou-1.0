@@ -1,12 +1,15 @@
-<%= simple_form_for(@application) do |f| %>
+<%= simple_form_for @application, :html => {:class => 'form-horizontal' }  do |f| %>
+<!-- added , above to correct syntax error 28.12.2012 -->
+
+
   <%= f.error_notification %>
 
   <div class="form-inputs">
-    <%= f.input :application_id %>
-    <%= f.input :job_id %>
-    <%= f.input :user_id %>
+    <%= f.input :application_id, :required => true, :validate => true %>
+    <%= f.input :job_id, :required => true, :validate => true  %>
+    <%= f.input :user_id, :required => true, :validate => true  %>
     <%= f.input :application_cover_note %>
-    <%= f.input :cv %>
+    <%= f.input :cv  %>
   </div>
 
   <div class="form-actions">

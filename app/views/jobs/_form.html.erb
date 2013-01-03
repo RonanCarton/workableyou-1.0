@@ -2,21 +2,21 @@
   <%= f.error_notification %>
 
   <div class="form-inputs">
-    <%= f.input :job_title %>
-    <%= f.input :job_id %>
-    <%= f.input :job_description %>
-    <%= f.input :user_id %>
-    <%= f.input :job_location %>
-    <%= f.input :job_type %>
-    <%= f.input :employer %>
-    <%= f.input :employer_website %>
-    <%= f.input :created_at %>
-    <%= f.input :updated_at %>
-    <%= f.input :how_to_apply %>
-    <%= f.input :photo_url %>
-    <%= f.input :industry %>
-    <%= f.input :hours %>
-    <%= f.input :days %>
+    <%= f.input :job_title, :required => true, :validate => true %>
+    <%= f.input :job_id, :required => true, :validate => true %>
+    <%= f.input :job_description, :required => true, :validate => true %>
+    <%= f.input :user_id, :required => true, :validate => true %>
+    <%= f.input :job_location, :required => true, :validate => true %>
+    <%= f.input :job_type, :required => true, :validate => true %>
+    <%= f.input :employer, :required => true, :validate => true %>
+    <%= f.input :employer_website, :required => true, :validate => true %>
+    <%= f.input :created_at, :required => true, :validate => true %>
+    <%= f.input :updated_at, :required => true, :validate => true %>
+    <%= f.input :how_to_apply, :required => true, :validate => true %>
+    <%= f.input :photo_url, :required => true, :validate => true %>
+    <%= f.input :industry, :required => true, :validate => true %>
+    <%= f.input :hours, :required => true, :validate => true %>
+    <%= f.input :days, :required => true, :validate => true %>
   </div>
 
   <div class="form-actions">
