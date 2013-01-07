@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130103171300) do
+ActiveRecord::Schema.define(:version => 20130107152339) do
 
   create_table "applications", :force => true do |t|
     t.string   "application_id"
@@ -23,6 +23,13 @@ ActiveRecord::Schema.define(:version => 20130103171300) do
     t.string   "cv"
   end
 
+  create_table "articles", :force => true do |t|
+    t.string   "title"
+    t.text     "body"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "authentications", :force => true do |t|
     t.integer  "user_id"
     t.string   "provider"
@@ -30,6 +37,15 @@ ActiveRecord::Schema.define(:version => 20130103171300) do
     t.string   "index"
     t.string   "create"
     t.string   "destroy"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "comments", :force => true do |t|
+    t.integer  "article_id"
+    t.string   "name"
+    t.string   "email"
+    t.text     "body"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -99,6 +115,26 @@ ActiveRecord::Schema.define(:version => 20130103171300) do
   add_index "roles", ["name", "resource_type", "resource_id"], :name => "index_roles_on_name_and_resource_type_and_resource_id"
   add_index "roles", ["name"], :name => "index_roles_on_name"
 
+  create_table "search_suggestions", :force => true do |t|
+    t.string   "term"
+    t.integer  "popularity"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "taggings", :force => true do |t|
+    t.integer  "article_id"
+    t.integer  "tag_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "tags", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
     t.string   "encrypted_password",     :default => "", :null => false
@@ -126,5 +162,32 @@ ActiveRecord::Schema.define(:version => 20130103171300) do
   end
 
   add_index "users_roles", ["user_id", "role_id"], :name => "index_users_roles_on_user_id_and_role_id"
+
+  create_table "wforums", :force => true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.string   "permalink"
+  end
+
+  create_table "wposts", :force => true do |t|
+    t.text     "content"
+    t.integer  "wtopic_id"
+    t.integer  "user_id"
+    t.integer  "reply_to_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "wtopics", :force => true do |t|
+    t.integer  "wforum_id"
+    t.integer  "user_id"
+    t.string   "name"
+    t.integer  "last_poster_id"
+    t.datetime "last_post_at"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+  end
 
 end

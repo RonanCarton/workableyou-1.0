@@ -1,0 +1,40 @@
+<h1>Listing Forums</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th width="30%">Last Post</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @wforums.each do |wforum| %>
+  <tr>
+    <td><%= wforum.name %></td>
+    <td><%= wforum.description %></td>
+    <td><%= link_to 'Show', wforum %></td>
+    <td><%= link_to 'Edit', edit_wforum_path(wforum) %></td>
+    <td><%= link_to 'Destroy', wforum, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Forum', new_wforum_path %>
+
+
+  <% for wforum in @wforums %>
+      <tr>
+        <td><h4><%= link_to h(wforum.name), wforum_path(forum.id) %></h4>
+          <small><%= wforum.wtopics.count %> wtopics</small><br />
+          <%= wforum.description %></td>
+        <td ></td>
+        <td><%= link_to "Show", wforum %></td>
+        <td><%= link_to "Edit", edit_wforum_path(wforum) %></td>
+        <td><%= link_to "Destroy", wforum, :confirm => 'Are you sure?', :method => :delete %></td>
+      </tr>
+  <% end %>
+</table>

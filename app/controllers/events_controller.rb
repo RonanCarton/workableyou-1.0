@@ -5,7 +5,7 @@ class EventsController < ApplicationController
     def index
       @q = Event.search(params[:q])
       @events = @q.result(:distinct => true)
-
+      @q.build_condition
 
     #@events = Event.all
 

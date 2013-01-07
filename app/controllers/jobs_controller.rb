@@ -7,6 +7,7 @@ class JobsController < ApplicationController
   def index
     @q = Job.search(params[:q])
     @jobs = @q.result(:distinct => true)
+    @q.build_condition
    #@jobs = Job.all
 
     respond_to do |format|

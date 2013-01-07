@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Forum:</b>
+  <%= @wtopic.wforum_id %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @wtopic.user_id %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @wtopic.name %>
+</p>
+
+<p>
+  <b>Last poster:</b>
+  <%= @wtopic.last_poster_id %>
+</p>
+
+<p>
+  <b>Last post at:</b>
+  <%= @wtopic.last_post_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_wtopic_path(@wtopic) %> |
+<%= link_to 'Back', wtopics_path %>

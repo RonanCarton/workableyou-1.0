@@ -1,0 +1,29 @@
+<h1>Listing Posts</h1>
+
+<table>
+  <tr>
+    <th>Content</th>
+    <th>Wtopic</th>
+    <th>User</th>
+    <th>Reply to</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @wposts.each do |wpost| %>
+  <tr>
+    <td><%= wpost.content %></td>
+    <td><%= wpost.wtopic_id %></td>
+    <td><%= wpost.user_id %></td>
+    <td><%= wpost.reply_to_id %></td>
+    <td><%= link_to 'Show', wpost %></td>
+    <td><%= link_to 'Edit', edit_wpost_path(wpost) %></td>
+    <td><%= link_to 'Destroy', wpost, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Post', new_wpost_path %>

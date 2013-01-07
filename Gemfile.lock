@@ -218,7 +218,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass (>= 2.1.0.0)
-  cancan (>= 1.6.8)
+  cancan (>= 1.6.7)
   capybara
   carrierwave
   coffee-rails (~> 3.2.1)

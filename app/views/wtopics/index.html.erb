@@ -1,0 +1,31 @@
+<h1>Listing Forum Topics</h1>
+
+<table>
+  <tr>
+    <th>Forum</th>
+    <th>User</th>
+    <th>Name</th>
+    <th>Last poster</th>
+    <th>Last post at</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @wtopics.each do |wtopic| %>
+  <tr>
+    <td><%= wtopic.wforum_id %></td>
+    <td><%= wtopic.user_id %></td>
+    <td><%= wtopic.name %></td>
+    <td><%= wtopic.last_poster_id %></td>
+    <td><%= wtopic.last_post_at %></td>
+    <td><%= link_to 'Show', wtopic %></td>
+    <td><%= link_to 'Edit', edit_wtopic_path(wtopic) %></td>
+    <td><%= link_to 'Destroy', wtopic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Wtopic', new_wtopic_path %>

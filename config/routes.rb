@@ -1,8 +1,27 @@
 Workableyou::Application.routes.draw do
 
 
-mount Forem::Engine, :at => "/forums" #, :as => "forums_engine"
-match "/forums" => "forem/forums#index" #, :as => "forums"
+  resources :wposts
+
+  resources :wtopics
+
+  resources :wforums
+
+  resources :forums
+
+  resources :articles do
+  resources :comments
+  end
+
+  resources :search_suggestions
+
+#mount Forem::Engine, :at => "/forums" #, :as => "forums_engine"
+match "/wforums" => "wforums#index" , :as => "forums"
+
+match "/comments" => "comments#index" #, :as => "comments"
+
+
+  match 'users/:id', :to => "users#show", :as => :user
 
   match '/auth/:provider/callback' => 'authentications#create'
   resources :authentications

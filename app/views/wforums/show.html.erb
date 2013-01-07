@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @wforum.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @wforum.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_wforum_path(@wforum) %> |
+<%= link_to 'Back', wforums_path %>

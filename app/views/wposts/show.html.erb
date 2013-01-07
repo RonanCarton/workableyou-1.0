@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @wpost.content %>
+</p>
+
+<p>
+  <b>Wtopic:</b>
+  <%= @wpost.wtopic_id %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @wpost.user_id %>
+</p>
+
+<p>
+  <b>Reply to:</b>
+  <%= @wpost.reply_to_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_wpost_path(@wpost) %> |
+<%= link_to 'Back', wposts_path %>
