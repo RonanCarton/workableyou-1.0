@@ -16,7 +16,7 @@ Workableyou::Application.routes.draw do
   resources :search_suggestions
 
 #mount Forem::Engine, :at => "/forums" #, :as => "forums_engine"
-match "/wforums" => "wforums#index" , :as => "forums"
+match "/wforums" => "wforums#index" #, :as => "forums"
 
 match "/comments" => "comments#index" #, :as => "comments"
 
