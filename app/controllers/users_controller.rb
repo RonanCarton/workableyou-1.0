@@ -1,5 +1,8 @@
 class UsersController < ApplicationController
   before_filter :authenticate_user!
+  #before_filter :get_user, :only => [:index,:new,:edit]
+  #before_filter :accessible_roles, :only => [:new, :edit, :show, :update, :create]
+  #load_and_authorize_resource :only => [:show,:new,:destroy,:edit,:update]
 
   def index
     authorize! :index, @user, :message => 'Not authorized as an administrator.'

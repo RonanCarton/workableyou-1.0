@@ -1,6 +1,0 @@
-6bf3b584f3786f33f310b3cc7073efb61ebb9f02		branch '1-0-stable' of git://github.com/radar/forem
-14a341bcaf13c9d8986984d2e30ffe3dae833c05		branch 'gemoji' of git://github.com/radar/forem
-03725d78827c235574b0186350316821c880a7e9		branch 'master' of git://github.com/radar/forem
-e948b250477ac449cfc5d748bd5cd4beb5b1cc21		branch 'routing' of git://github.com/radar/forem
-5a871563a8bc069a638662b37c2c40d30f4866b9		branch 'travis' of git://github.com/radar/forem
-690446a0d78fb5540ae030d18d5815e5adb855d1	not-for-merge	tag 'v0.0.1' of git://github.com/radar/forem

@@ -1,6 +1,12 @@
 Workableyou::Application.routes.draw do
 
 
+  #resources :forem_subscriptions
+  #
+  #resources :forem_views
+  #
+  #resources :forem_categories
+
   resources :wposts
 
   resources :wtopics
@@ -15,16 +21,16 @@ Workableyou::Application.routes.draw do
 
   resources :search_suggestions
 
-#mount Forem::Engine, :at => "/forums" #, :as => "forums_engine"
-match "/wforums" => "wforums#index" #, :as => "forums"
+#mount Forem::Engine, :at => "/forums" #,:action => "index" #, :as => "forums_engine"
 
-match "/comments" => "comments#index" #, :as => "comments"
+  mount Forem::Engine => "/forums"
 
-
-  match 'users/:id', :to => "users#show", :as => :user
-
-  match '/auth/:provider/callback' => 'authentications#create'
   resources :authentications
+
+  #match 'users/:id', :to => "users#show", :as => :user
+  #match "/auth/:provider/callback" => "sessions#create"
+  match '/auth/:provider/callback' => 'authentications#create'
+
 
   resources :applications
 
@@ -37,14 +43,16 @@ match "/comments" => "comments#index" #, :as => "comments"
     get 'jobs/autocomplete_job_location'
     end
 
+  match "/wforums" => "wforums#index" #, :as => "forums"
 
+  match "/comments" => "comments#index" #, :as => "comments"
 
 
 
   authenticated :user do
-    root :to => 'home#index'
+    root :to =>  "home#index"
   end
-  root :to => "home#index"
+  root :to =>     "home#index"
   devise_for :users
   resources :users
 end

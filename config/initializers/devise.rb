@@ -202,10 +202,10 @@ Devise.setup do |config|
   # The default HTTP method used to sign out a resource. Default is :delete.
   config.sign_out_via = Rails.env.test? ? :get : :delete
 
-  # ==> OmniAuth
-  require 'omniauth-linkedin'
-  config.omniauth :linked_in, ENV['vg8cg31rdett'], ENV['M8EETJdH6YedrTyd'] # , :scope => 'r_fullprofile r_emailaddress r_network', :fields => ["id", "email-address", "first-name", "last-name", "headline", "industry", "picture-url", "public-profile-url", "location", "connections"]
-  #["id", "email-address", "first-name", "last-name", "headline", "industry", "picture-url", "public-profile-url", "location"]
+ # ==> OmniAuth
+ # require 'omniauth-linkedin'
+ # config.omniauth :linked_in, ENV['vg8cg31rdett'], ENV['M8EETJdH6YedrTyd']  , :scope => 'r_fullprofile r_emailaddress r_network', :fields => ["id", "email-address", "first-name", "last-name", "headline", "industry", "picture-url", "public-profile-url", "location", "connections"]
+ # ["id", "email-address", "first-name", "last-name", "headline", "industry", "picture-url", "public-profile-url", "location"]
 
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.

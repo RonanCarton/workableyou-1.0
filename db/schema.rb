@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130107152339) do
+ActiveRecord::Schema.define(:version => 20130111150136) do
 
   create_table "applications", :force => true do |t|
     t.string   "application_id"
@@ -64,6 +64,12 @@ ActiveRecord::Schema.define(:version => 20130107152339) do
     t.datetime "updated_at",        :null => false
   end
 
+  create_table "forem_categories", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "forem_forums", :force => true do |t|
     t.string "title"
     t.text   "description"
@@ -78,10 +84,24 @@ ActiveRecord::Schema.define(:version => 20130107152339) do
     t.integer  "reply_to_id"
   end
 
+  create_table "forem_subscriptions", :force => true do |t|
+    t.integer  "subscriber_id"
+    t.integer  "topic_id"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
+
   create_table "forem_topics", :force => true do |t|
     t.integer  "forum_id"
     t.integer  "user_id"
     t.string   "subject"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "forem_views", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "topic_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
