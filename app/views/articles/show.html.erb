@@ -1,25 +1,94 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Title:</b>
-  <%= @article.title %>
-</p>
 
-<p>
-  <b>Body:</b>
-  <%= @article.body %>
-</p>
+<div class="row">
+  <div class="span12">
+
+    <div class="row">
+      <div class="span3">
+
+        <div class="span2"><div class="img-polaroid"><%= image_tag "SSGoldman Sachs.jpg"%></div>
+          <a href=".html" title="Read More" class="read_more">Featured Job</a>
+          <p><small>"Sed ut perspiciatis unde omnis iste natus.</small></p></div>
+
+        <div class="span2"><div class="img-polaroid"><%= image_tag "SSJob2.jpg"%></div>
+          <a href=".html" title="Read More" class="read_more">Featured Job</a>
+          <p><small>"Sed ut perspiciatis unde omnis iste natus.</small></p></div>
+
+        <div class="span2"><div class="img-polaroid"><%= image_tag "Dress For Success.jpg"%></div>
+          <a href=".html" title="Read More" class="read_more">Featured Job</a>
+          <p><small>"Sed ut perspiciatis unde omnis iste natus.</small></p></div>
+
+        <div class="span2"><div class="img-polaroid"><%= image_tag "SScareer.jpg"%></div>
+          <a href=".html" title="Read More" class="read_more">Featured Job</a>
+          <p><small>"Sed ut perspiciatis unde omnis iste natus.</small></p></div>
 
 
-<%= link_to 'Edit', edit_article_path(@article) %> |
-<%= link_to 'Back', articles_path %>
-<p>Tags:
-  <% @article.tags.each do |tag|%>
-      <%= tag.name %>
-  <% end %>
-</p>
 
 
-<%= render 'comments/comment' %>
 
-<!--<h2>Comments</h2>-->
+      </div>
+
+      <div class="span5 ">
+        <p id="notice"><%= notice %></p>
+
+        <p>
+          <b>Title:</b>
+          <%= @article.title %>
+        </p>
+
+        <p>
+          <b>Body:</b>
+          <%= @article.body %>
+        </p>
+
+
+        <%= link_to 'Edit', edit_article_path(@article) %> |
+        <%= link_to 'Back', articles_path %>
+        <p>Tags:
+          <% @article.tags.each do |tag|%>
+              <%= tag.name %>
+          <% end %>
+        </p>
+
+        <%= render 'comments/comment' %>
+
+        <h4>Comments</h4>
+
+        <%= form_for([@article, @article.comments.build]) do |f| %>
+            <div>
+              <%= f.label :name %><br />
+              <%= f.text_field :name %>
+            </div>
+            <div>
+              <%= f.label :email %><br />
+              <%= f.text_field :email %>
+            </div>
+            <div>
+              <%= f.label :body %><br />
+              <%= f.text_area :body %>
+            </div>
+            <p><%= f.submit %></p>
+        <% end %>
+
+
+      </div>
+      <div class="span3">
+
+
+        <!--<#%= render 'layouts/jobsearch' %>-->
+
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+

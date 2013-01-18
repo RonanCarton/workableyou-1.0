@@ -21,5 +21,6 @@
 </p>
 
 
-<%= link_to 'Edit', edit_comment_path(@comment) %> |
-<%= link_to 'Back', comments_path %>
+
+<%= link_to 'Edit', edit_article_comment_path(@article, comment) %> |
+<%= link_to 'Delete', article_comment_path(@article, comment), :confirm => 'Are you sure?', :method => :delete %>

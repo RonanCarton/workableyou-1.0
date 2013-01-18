@@ -33,29 +33,31 @@
 
         <h4>Latest Blog Posts</h4>
 
-<% @articles.each do |article| %>
 
-                <p><h5><%= article.title %></h5>
 
-                </p>
+        <% @articles.each do |article| %>
+
+            <p><h5><%= article.title %></h5>
+
+            </p>
 
             <p><h5>Title</h5>
-           <%= article.body %>
+            <%= article.body %>
             </p>
 
 
 
 
-                <%= link_to 'Show', article %>
-                <%= link_to 'Edit', edit_article_path(article) %>
-                <%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %>
+            <%= link_to 'Show', article %>
+            <%= link_to 'Edit', edit_article_path(article) %>
+            <%= link_to 'Destroy', article, method: :delete, data: {confirm: 'Are you sure?'} %>
 
-          <% end %>
+        <% end %>
 
 
         <br />
 
-        <!--<%= link_to 'New Article', new_article_path %>-->
+        <%= link_to 'New Article', new_article_path %>
 
 
 
@@ -63,7 +65,7 @@
       <div class="span3">
 
 
-        <!--<#%= render 'layouts/jobsearch' %>-->
+
 
 
       </div>

@@ -2,7 +2,7 @@ class Article < ActiveRecord::Base
   has_many :comments, :dependent => :destroy
   has_many :taggings, :dependent => :destroy
   has_many :tags, :through => :taggings
-  attr_accessible :body, :title
+  attr_accessible :body, :title, :tag_names
   validates_presence_of :title, :body
   validates_uniqueness_of :title
   attr_writer :tag_names

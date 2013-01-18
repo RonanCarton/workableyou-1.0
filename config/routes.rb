@@ -39,9 +39,9 @@ Workableyou::Application.routes.draw do
   resources :jobs
 
 
-  scope '(:locale)' do
-    get 'jobs/autocomplete_job_location'
-    end
+  #scope '(:locale)' do
+  #  get 'jobs/autocomplete_job_location'
+  #  end
 
   match "/wforums" => "wforums#index" #, :as => "forums"
 

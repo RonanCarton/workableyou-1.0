@@ -1,80 +1,140 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <b>Job title:</b>
-  <%= @job.job_title %>
-</p>
-
-<p>
-  <b>Job:</b>
-  <%= @job.job_id %>
-</p>
-
-<p>
-  <b>Job description:</b>
-  <%= @job.job_description %>
-</p>
-
-<p>
-  <b>User:</b>
-  <%= @job.user_id %>
-</p>
-
-<p>
-  <b>Job location:</b>
-  <%= @job.job_location %>
-</p>
-
-<p>
-  <b>Job type:</b>
-  <%= @job.job_type %>
-</p>
-
-<p>
-  <b>Employer:</b>
-  <%= @job.employer %>
-</p>
-
-<p>
-  <b>Employer website:</b>
-  <%= @job.employer_website %>
-</p>
-
-<p>
-  <b>Created at:</b>
-  <%= @job.created_at %>
-</p>
-
-<p>
-  <b>Updated at:</b>
-  <%= @job.updated_at %>
-</p>
-
-<p>
-  <b>How to apply:</b>
-  <%= @job.how_to_apply %>
-</p>
-
-<p>
-  <b>Photo url:</b>
-  <%= @job.photo_url %>
-</p>
-
-<p>
-  <b>Industry:</b>
-  <%= @job.industry %>
-</p>
-
-<p>
-  <b>Hours:</b>
-  <%= @job.hours %>
-</p>
-
-<p>
-  <b>Days:</b>
-  <%= @job.days %>
-</p>
 
 
-<%= link_to 'Edit', edit_job_path(@job) %> |
-<%= link_to 'Back', jobs_path %>
+
+<div class="row">
+  <div class="span12">
+
+    <div class="row">
+      <div class="span3">
+
+        <div class="span2"><div class="img-polaroid"><%= image_tag "SSGoldman Sachs.jpg"%></div>
+          <a href=".html" title="Read More" class="read_more">Featured Job</a>
+          <p><small>"Sed ut perspiciatis unde omnis iste natus.</small></p></div>
+
+        <div class="span2"><div class="img-polaroid"><%= image_tag "SSJob2.jpg"%></div>
+          <a href=".html" title="Read More" class="read_more">Featured Job</a>
+          <p><small>"Sed ut perspiciatis unde omnis iste natus.</small></p></div>
+
+        <div class="span2"><div class="img-polaroid"><%= image_tag "Dress For Success.jpg"%></div>
+          <a href=".html" title="Read More" class="read_more">Featured Job</a>
+          <p><small>"Sed ut perspiciatis unde omnis iste natus.</small></p></div>
+
+        <div class="span2"><div class="img-polaroid"><%= image_tag "SScareer.jpg"%></div>
+          <a href=".html" title="Read More" class="read_more">Featured Job</a>
+          <p><small>"Sed ut perspiciatis unde omnis iste natus.</small></p></div>
+
+
+
+
+
+      </div>
+
+      <div class="span5 ">
+
+
+        <p id="notice"><%= notice %></p>
+
+        <p>
+          <b>Title:</b>
+         <h3><%= @job.job_title %></h3>
+        </p>
+
+        <p>
+          <b>Job:</b>
+          <%= @job.job_id %>
+        </p>
+
+        <p>
+          <b>Description:</b>
+          <%= @job.job_description %>
+        </p>
+
+        <p>
+          <b>User:</b>
+          <%= @job.user_id %>
+        </p>
+
+        <p>
+          <b>Location:</b>
+          <%= @job.job_location %>
+        </p>
+
+        <p>
+          <b>Job type:</b>
+          <%= @job.job_type %>
+        </p>
+
+        <p>
+          <b>Employer:</b>
+          <%= @job.employer %>
+        </p>
+
+        <p>
+          <b>Employer website:</b>
+          <%= @job.employer_website %>
+        </p>
+
+        <p>
+          <b>Created at:</b>
+          <%= @job.created_at %>
+        </p>
+
+        <p>
+          <b>Updated at:</b>
+          <%= @job.updated_at %>
+        </p>
+
+        <p>
+          <b>How to apply:</b>
+          <%= @job.how_to_apply %>
+        </p>
+
+        <p>
+          <b></b>
+          <%= @job.photo_url %>
+        </p>
+
+        <p>
+          <b>Industry:</b>
+          <%= @job.industry %>
+        </p>
+
+        <p>
+          <b>Hours:</b>
+          <%= @job.hours %>
+        </p>
+
+        <p>
+          <b>Days:</b>
+          <%= @job.days %>
+        </p>
+
+
+        <%= link_to 'Edit', edit_job_path(@job) %> |
+        <%= link_to 'Back', jobs_path %>
+
+
+
+
+      </div>
+      <div class="span3">
+
+
+
+
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+

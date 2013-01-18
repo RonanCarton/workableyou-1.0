@@ -1,4 +1,4 @@
-<%= link_to "Workable You", root_path, :class => 'brand' %>
+<%= link_to "", root_path, :class => 'brand' %>
 <div class="navbar navbar-fixed-top">
   <a class="brand" href="#"><%= image_tag "workable you  Logo 2012 copy.gif" %></a>
 
@@ -14,41 +14,123 @@
 
     <div class="nav-collapse">
       <ul class="nav">
-        <li>
-          <%= link_to "Blog", page_path(:id => "wy_blog") %>
-        </li>
+
         <li>
           <%= link_to "Home", page_path(:id => "wy_home") %>
         </li>
-        <li>
-          <%= link_to "Job Index", page_path(:id => "wy_jobs") %>
-        </li>
+
 
         <!--<li>-->
-          <!--<#%= link_to "Forum" %>-->
+        <!--<#%= link_to "Forum" %>-->
         <!--</li>-->
 
 
+        <li>
+          <%= link_to "Forums", forem_path(:id => "forum") %>
+        </li>
 
 
-      <li>
-          <%= link_to "forums", forem_path(:id => "forum") %>
-      </li>
-
-
-        <% if user_signed_in? %>
+        <li class="dropdown">
+          <a class="dropdown-toggle"
+             data-toggle="dropdown"
+             href="#">
+            Blog
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
             <li>
-              <%= link_to('Logout', destroy_user_session_path, :method => 'delete') %>
+              <%= link_to "Blog Index", page_path(:id => "wy_blog") %>
             </li>
-        <% else %>
             <li>
-              <%= link_to('Login', new_user_session_path) %>
+              <%= link_to 'Latest Blog Post', articles_path %>
+            </li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle"
+             data-toggle="dropdown"
+             href="#">
+            Jobs
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <%= link_to "Job Index", page_path(:id => "wy_jobs") %>
+            </li>
+            <li>
+              <%= link_to('Job Search & Details', jobs_path) %>
             </li>
 
             <li>
-             <%= link_to 'Sign in with Linked In', '/users/auth/linkedin' %>
+              <%= link_to('Post A Job', new_job_path) %>
             </li>
-        <% end %>
+
+            <li>
+              <%= link_to('Apply for a Job', new_application_path) %>
+            </li>
+
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle"
+             data-toggle="dropdown"
+             href="#">
+            Events
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <%= link_to('Events', events_path) %>
+              show error but click again will load
+            </li>
+            <li>
+            <%= link_to 'Post New Event', new_event_path %>
+            </li>
+          </ul>
+        </li>
+
+
+
+        <li class="dropdown">
+          <a class="dropdown-toggle"
+             data-toggle="dropdown"
+             href="#">
+            Sign Up - Sign In
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <% if user_signed_in? %>
+                <li>
+                  <%= link_to('Logout', destroy_user_session_path, :method => 'delete') %>
+                </li>
+            <% else %>
+                <li>
+                  <%= link_to('Login', new_user_session_path) %>
+                </li>
+
+                <li>
+                  <%= link_to 'Sign in with Linked In', '/users/auth/linkedin' %>
+                </li>
+            <% end %>
+            <% if user_signed_in? %>
+                <li>
+                  <%= link_to('Edit account', edit_user_registration_path) %>
+                </li>
+                <% if current_user.has_role? :admin %>
+                    <li>
+                      <%= link_to('Admin', users_path) %>
+                    </li>
+                <% end %>
+            <% else %>
+                <li>
+                  <%= link_to('Join Today', new_user_registration_path) %>
+                </li>
+            <% end %>
+
+
+          </ul>
+        </li>
         <% if user_signed_in? %>
             <li>
               <%= link_to('Edit account', edit_user_registration_path) %>
@@ -62,31 +144,17 @@
             <li>
               <%= link_to('Join Today', new_user_registration_path) %>
             </li>
-
+        <% end %>
+        <% if user_signed_in? %>
             <li>
-              <%= link_to('Events', events_path) %>
+              <%= link_to('Logout', destroy_user_session_path, :method => 'delete') %>
             </li>
-
-            <li>
-              <%= link_to('Jobs', jobs_path) %>
-            </li>
-
-            <li>
-              <%= link_to('Post A Job', new_job_path) %>
-            </li>
-
-            <li>
-              <%= link_to('Apply', new_application_path) %>
-            </li>
-
-            <li>
-              <%= link_to 'Blog', articles_path %>
-            </li>
-
-
-
 
         <% end %>
+
+
+
+
       </ul>
 
 

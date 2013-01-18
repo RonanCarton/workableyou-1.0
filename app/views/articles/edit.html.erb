@@ -1,6 +1,36 @@
-<h1>Editing article</h1>
 
-<%= render 'form' %>
 
-<%= link_to 'Show', @article %> |
-<%= link_to 'Back', articles_path %>
+
+
+<div class="row">
+  <div class="span12">
+
+    <div class="row">
+
+      <div class="span6 offset3">
+
+        <h4>Edit your article</h4>
+
+        <%= render 'form' %>
+
+        <%= link_to 'Show', @article %> |
+        <%= link_to 'Back', articles_path %>
+
+
+
+
+      </div>
+      <div class="span3">
+
+
+        <%= render 'layouts/twitterfeed' %>
+
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
